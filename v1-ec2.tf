@@ -6,7 +6,7 @@ resource "aws_instance" "instanve_reference" {
     ami="ami-0a6ed6689998f32a5"
     instance_type = "t2.micro"
     key_name = "Sai_aws_key_pair"
-    security_groups = ["sg-using-terraform"]
+    security_groups = ["uisg-using-terraform"]
   
 }
 
